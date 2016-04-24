@@ -210,7 +210,7 @@ real {digito}*"."{digito}+
 	(.|'\n')*	{}
 }
 
-.	{error("Error léxico ");}
+.	{error("Error léxico");}
 
 %%
 

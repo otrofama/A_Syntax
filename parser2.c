@@ -425,53 +425,6 @@ void K()
 		default:
 			error("SYNTAX ERROR");
 	}
-	/*
-	//if(token== || token==)//X
-		X();
-	else if(token==)//M
-		M();
-		else if(token==PAR_AB || token==ID || token== CARACTERES)//E
-			E();
-			else if(token==ELSE)//Z
-				Z();
-			else if(token==)//S
-	if (token==WHILE)
-	{
-		X();
-	}
-	else
-	{
-		if (token==FOR)
-		{
-			M();
-		}
-		else
-		{
-			if (token==PAR_AB||token==ID||token==CARACTERES)
-			{
-				E();
-			}
-			else
-			{
-				if (token==IF)
-				{
-					Z();
-				}
-				else
-				{
-					if (token==SWITCH)
-					{
-						S();
-					}
-					else
-					{
-						error("SYNTAX ERROR");
-					}
-				}
-			}
-		}
-	}
-	*/
 }
 
 void A()

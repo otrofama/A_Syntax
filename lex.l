@@ -296,7 +296,7 @@ void print(List* list)
 void error(char* msg)
 {
 	printf("%s: en caracter %d, línea %d\n",msg,columns,yylineno);
-	//exit(-1);
+	exit(-1);
 }
 
 
