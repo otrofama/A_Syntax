@@ -133,7 +133,7 @@ real {digito}*"."{digito}+
 
 	"}"	{columns++;
 		yylval.line=yylineno;
-		return DPUN;}
+		return LLA_CI;}
 
 	"+"	{columns++;
 		yylval.line=yylineno;
